@@ -1,0 +1,59 @@
+求esea terminar el trabajo por lotes (S/N)? <?xml version="1.0" encoding="UTF-8"?>
+求esea terminar el trabajo por lotes (S/N)? <project xmlns="http://maven.apache.org/POM/4.0.0"
+求esea terminar el trabajo por lotes (S/N)?          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+求esea terminar el trabajo por lotes (S/N)?          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+求esea terminar el trabajo por lotes (S/N)?     <modelVersion>4.0.0</modelVersion>
+求esea terminar el trabajo por lotes (S/N)? 
+求esea terminar el trabajo por lotes (S/N)?     <parent>
+求esea terminar el trabajo por lotes (S/N)?         <groupId>org.springframework.boot</groupId>
+求esea terminar el trabajo por lotes (S/N)?         <artifactId>spring-boot-starter-parent</artifactId>
+求esea terminar el trabajo por lotes (S/N)?         <version>2.7.11</version>
+求esea terminar el trabajo por lotes (S/N)?         <!-- lookup parent from repository -->
+求esea terminar el trabajo por lotes (S/N)?         <relativePath/>
+求esea terminar el trabajo por lotes (S/N)?     </parent>
+求esea terminar el trabajo por lotes (S/N)? 
+求esea terminar el trabajo por lotes (S/N)?     <groupId>org.example</groupId>
+求esea terminar el trabajo por lotes (S/N)?     <artifactId>testProject2.0</artifactId>
+求esea terminar el trabajo por lotes (S/N)?     <version>1.0-SNAPSHOT</version>
+求esea terminar el trabajo por lotes (S/N)? 
+求esea terminar el trabajo por lotes (S/N)?     <properties>
+求esea terminar el trabajo por lotes (S/N)?         <maven.compiler.source>11</maven.compiler.source>
+求esea terminar el trabajo por lotes (S/N)?         <maven.compiler.target>11</maven.compiler.target>
+求esea terminar el trabajo por lotes (S/N)?         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+求esea terminar el trabajo por lotes (S/N)?     </properties>
+求esea terminar el trabajo por lotes (S/N)? 
+求esea terminar el trabajo por lotes (S/N)?     <dependencies>
+求esea terminar el trabajo por lotes (S/N)?         <dependency>
+求esea terminar el trabajo por lotes (S/N)?             <groupId>com.fasterxml.jackson.core</groupId>
+求esea terminar el trabajo por lotes (S/N)?             <artifactId>jackson-databind</artifactId>
+求esea terminar el trabajo por lotes (S/N)?             <version>2.9.4</version>
+求esea terminar el trabajo por lotes (S/N)?         </dependency>
+求esea terminar el trabajo por lotes (S/N)? 
+求esea terminar el trabajo por lotes (S/N)?         <dependency>
+求esea terminar el trabajo por lotes (S/N)?             <groupId>com.fasterxml.jackson.dataformat</groupId>
+求esea terminar el trabajo por lotes (S/N)?             <artifactId>jackson-dataformat-xml</artifactId>
+求esea terminar el trabajo por lotes (S/N)?             <version>2.9.4</version>
+求esea terminar el trabajo por lotes (S/N)?         </dependency>
+求esea terminar el trabajo por lotes (S/N)? 
+求esea terminar el trabajo por lotes (S/N)?         <dependency>
+求esea terminar el trabajo por lotes (S/N)?             <groupId>org.springframework.boot</groupId>
+求esea terminar el trabajo por lotes (S/N)?             <artifactId>spring-boot-starter-web-services</artifactId>
+求esea terminar el trabajo por lotes (S/N)?             <exclusions>
+求esea terminar el trabajo por lotes (S/N)?                 <exclusion>
+求esea terminar el trabajo por lotes (S/N)?                     <groupId>org.springframework.boot</groupId>
+求esea terminar el trabajo por lotes (S/N)?                     <artifactId>spring-boot-starter-tomcat</artifactId>
+求esea terminar el trabajo por lotes (S/N)?                 </exclusion>
+求esea terminar el trabajo por lotes (S/N)?             </exclusions>
+求esea terminar el trabajo por lotes (S/N)?         </dependency>
+求esea terminar el trabajo por lotes (S/N)? 
+求esea terminar el trabajo por lotes (S/N)?         <dependency>
+求esea terminar el trabajo por lotes (S/N)?             <groupId>example-search</groupId>
+求esea terminar el trabajo por lotes (S/N)?             <artifactId>search-user</artifactId>
+求esea terminar el trabajo por lotes (S/N)?             <version>1.0</version>
+求esea terminar el trabajo por lotes (S/N)?             <scope>system</scope>
+求esea terminar el trabajo por lotes (S/N)?             <systemPath>C:/Users/raul.corporales.ext/Documents/testProject/out/artifacts/testProject_jar/testProject.jar</systemPath>
+求esea terminar el trabajo por lotes (S/N)?         </dependency>
+求esea terminar el trabajo por lotes (S/N)? 
+求esea terminar el trabajo por lotes (S/N)?     </dependencies>
+求esea terminar el trabajo por lotes (S/N)? 
+求esea terminar el trabajo por lotes (S/N)? </project>
